@@ -21,7 +21,6 @@ body {
   width: 100px;          /* adjust size as needed */
   height: 100px;         /* adjust size as needed */
   border: 2px solid #4a90e2; /* optional border */
-  z-index: 1000;         /* make sure it stays above other content */
   object-fit: cover;     /* keep aspect ratio, crop if needed */
   box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* optional shadow */
 }
@@ -125,3 +124,4 @@ footer {
 .dark .blog-tags a {
   background: #666;
 }
+
