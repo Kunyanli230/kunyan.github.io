@@ -13,12 +13,39 @@ body {
   justify-content: center;
 }
 
+
+.fixed-photo {
+  position: fixed;       /* stay fixed while scrolling */
+  top: 20px;             /* distance from top */
+  left: 620px;            /* distance from left */
+  width: 100px;          /* adjust size as needed */
+  height: 100px;         /* adjust size as needed */
+  border: 2px solid #4a90e2; /* optional border */
+  z-index: 1000;         /* make sure it stays above other content */
+  object-fit: cover;     /* keep aspect ratio, crop if needed */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* optional shadow */
+}
+
 /* Profile section */
 .profile {
   max-width: 600px;
   margin: auto;
   padding: 2rem;
 }
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
 
 .profile-pic {
   width: 150px;
